@@ -9,7 +9,7 @@ class CarroForm(forms.Form):
 class ClienteForm(forms.Form):
    class Meta:
       form = Cliente
-      fields = ['cpf, nome, data_nasc, endereço']
+      fields = ['cpf, nome, data_nascimento, endereço']
 
 
 class AluguelForm(forms.Form):
